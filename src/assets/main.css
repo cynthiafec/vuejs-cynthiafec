@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pastel-bg: #f9f8fc;
+  --color-pastel-card: #ffffff;
+  --color-pastel-purple: #9b87f5;
+  --color-pastel-pink: #fde2e4;
+  --color-pastel-blue: #e2ece9;
+  --color-pastel-yellow: #fff1c1;
+  --color-pastel-text: #4a4556;
+}
+
+body {
+  background-color: var(--color-pastel-bg);
+  color: var(--color-pastel-text);
+  font-family: 'Inter', sans-serif;
+}
